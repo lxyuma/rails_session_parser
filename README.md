@@ -1,6 +1,6 @@
 # rails session parser
 
-it's easiest way to parse rails session.
+it's easiest batch to parse rails sessions.
 
 ## usage
 
@@ -8,9 +8,13 @@ it's easiest way to parse rails session.
 
 `ruby cookie_session_checker.rb '<your session value>'`
 
+(please take your session value from other web developer tools)
+
 - active_record (if you use active record store)
 
 `ruby active_record_session_checker.rb '<your session value>'`
+
+(please take your session value from other db tools)
 
 ## results
 
